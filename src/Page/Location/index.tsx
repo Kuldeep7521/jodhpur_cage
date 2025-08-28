@@ -73,9 +73,9 @@ const Location = () => {
           </p>
         </div>
 
-        <div className=" flex flex-col gap-7 sm:gap-15 px-[20px] sm:px-[32px] md:px-[60px]" style={{ backgroundImage: "url('images/bg_img.jpg')" }}>
+        <div className=" flex flex-col gap-7 sm:gap-15 px-[20px] sm:px-[32px] md:px-[60px] max-sm:px-0" style={{ backgroundImage: "url('images/bg_img.jpg')" }}>
           {/* Location Information Section with Light Beige Background */}
-          <div className="">
+          <div className="max-sm:px-[20px]">
             <div className="container">
               {/* Location Selection Buttons */}
               <div className="flex items-center justify-center gap-5 mb-6 sm:mb-10">
@@ -158,9 +158,13 @@ const Location = () => {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex flex-col sm:flex-row gap-4">
+                  <div className="flex flex-col sm:flex-row gap-4 max-sm:hidden">
                     <Button variant="primary">LUNCH MENU</Button>
                     <Button variant="secondary">DINNER MENU</Button>
+                  </div>
+                  <div className="w-[100%] hidden max-sm:block">
+                    <Button className="w-[100%]" variant="primary">BOOK A TABLE</Button>
+                    {/* <Button variant="secondary">DINNER MENU</Button> */}
                   </div>
                 </div>
 
@@ -202,7 +206,7 @@ const Location = () => {
             </div>
           </div>
 
-          <div className="">
+          <div className="max-sm:px-[20px]">
             {/* Visual Of Leeds/Harrogate Section */}
             <div className="text-center ">
               <h2 className="text-2xl sm:text-4xl text-[#F5652F] font-bold font-[Poppins]">
@@ -256,8 +260,8 @@ const Location = () => {
           </div>
 
           {/* Connect With Jodhpur Section */}
-          <div className="flex flex-col items-center pb-20">
-            <div className="text-center mb-6 sm:mb-10">
+          <div className="flex flex-col items-center pb-20 max-sm:bg-[#2C2A7B] max-sm:p-8 max-sm:m-0 max-sm:mb-10">
+            <div className="text-center mb-6 sm:mb-10 max-sm:mb-0 max-sm:mt-4">
               <h2 className="text-2xl sm:text-4xl text-[#F5652F] font-bold font-[Poppins]">
                 Connect With Jodhpur
               </h2>
@@ -311,11 +315,11 @@ const Location = () => {
 
   // Main location page
   return (
-    <div className="m-0 p-0 bg-cover bg-center bg-no-repeat max-sm:bg-cover max-sm:bg-bottom-left" style={{ backgroundImage: "url('images/bg_img.jpg')" }}>
+    <div className="m-0 p-0 bg-cover bg-center bg-no-repeat max-sm:bg-cover max-sm:bg-bottom-left max-sm:min-h-screen max-sm:bg-gradient-to-br max-sm:from-yellow-100 max-sm:via-yellow-50 max-sm:to-white" style={{ backgroundImage: "url('images/bg_img.jpg')" }}>
       <div className=" bg-cover bg-center bg-no-repeat h-[500px] p-0 m-0 flex flex-col justify-center items-center text-center max-sm:h-[274px]"
        style={{ backgroundImage: "url('./images/headerBanner.webp')" }}
       >
-       <p className="text-[48px] text-[#ffffff] max-sm:text-[#F5652F] max-sm:text-[20px] custom-font" style={{fontFamily: 'alNevrada'}} >
+        <p className="text-[48px] text-[#ffffff] max-sm:text-[#F5652F] max-sm:text-[20px] custom-font" style={{fontFamily: 'alNevrada'}} >
           "Find Jodhpur Flavours
           <br /> near you."
         </p>

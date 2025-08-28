@@ -14,29 +14,29 @@ export default function Footer() {
         />
 
         {/* Tagline */}
-        <p className="text-orange-500 font-semibold tracking-wider text-center " style={{fontFamily: 'alNevrada'}}>
+        <p className="text-orange-500 font-semibold tracking-wider text-center max-sm:text-[20px]" style={{fontFamily: 'alNevrada'}}>
           TRADITION - TASTE - ROYALTY
         </p>
 
         {/* Social Links */}
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 justify-center items-center gap-5 max-sm:gap-2">
           <a
             href="#"
-            className=" hover:bg-orange-500 transition duration-300"
+            className=" hover:bg-orange-500 transition duration-300 flex flex-col justify-center items-center"
           >
-             <img src="/images/Instagram.png" alt="" className="h-[5em] w-[5em]"/>
+             <img src="/images/instagram.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center">Instagram</p>
           </a>
-          <a
+        <a
             href="#"
-            className=" hover:bg-orange-500 transition duration-300"
+            className=" hover:bg-orange-500 transition duration-300 flex flex-col justify-center items-center"
           >
-            <img src="/images/whatsApp.png" alt="" className="h-[5em] w-[5em]"/>
+             <img src="/images/whatsapp.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center">Whatsapp</p>
           </a>
-          <a
+           <a
             href="#"
-            className=" hover:bg-orange-500 transition duration-300"
+            className=" hover:bg-orange-500 transition duration-300 flex flex-col justify-center items-center"
           >
-            <img src="/images/faceBook.png" alt="" className="h-[5em] w-[5em]"/>
+             <img src="/images/social-media.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center">Facebook</p>
           </a>
         </div>
       </div>

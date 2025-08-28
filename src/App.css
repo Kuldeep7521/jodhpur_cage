@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-family: 'ALNevrada';
+  src: url('/fonts/ALNevrada.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+  font-family: 'ALNevrada', sans-serif;
+}

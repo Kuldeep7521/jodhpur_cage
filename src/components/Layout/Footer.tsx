@@ -14,7 +14,7 @@ export default function Footer() {
         />
 
         {/* Tagline */}
-        <p className="text-orange-500 font-semibold tracking-wider text-center max-sm:text-[20px]" style={{fontFamily: 'alNevrada'}}>
+        <p className="text-orange-500 font-semibold tracking-wider text-center max-sm:text-[20px] custom-font" >
           TRADITION - TASTE - ROYALTY
         </p>
 
@@ -24,19 +24,19 @@ export default function Footer() {
             href="#"
             className=" hover:bg-orange-500 transition duration-300 flex flex-col justify-center items-center"
           >
-             <img src="/images/instagram.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center">Instagram</p>
+             <img src="/images/instagram.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center hidden max-sm:block">Instagram</p>
           </a>
         <a
             href="#"
             className=" hover:bg-orange-500 transition duration-300 flex flex-col justify-center items-center"
           >
-             <img src="/images/whatsapp.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center">Whatsapp</p>
+             <img src="/images/whatsapp.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center hidden max-sm:block">Whatsapp</p>
           </a>
            <a
             href="#"
             className=" hover:bg-orange-500 transition duration-300 flex flex-col justify-center items-center"
           >
-             <img src="/images/social-media.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center">Facebook</p>
+             <img src="/images/social-media.svg" alt="" className="h-[3em] w-[3em] max-sm:h-[2em] max-sm:w-[2em]"/> <p className="text-center hidden max-sm:block">Facebook</p>
           </a>
         </div>
       </div>

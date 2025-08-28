@@ -311,15 +311,15 @@ const Location = () => {
 
   // Main location page
   return (
-    <div className="m-0 p-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('images/bg_img.jpg')" }}>
-      <div className=" bg-cover bg-center bg-no-repeat h-[500px] p-0 m-0 flex flex-col justify-center items-center text-center"
+    <div className="m-0 p-0 bg-cover bg-center bg-no-repeat max-sm:bg-cover max-sm:bg-bottom-left" style={{ backgroundImage: "url('images/bg_img.jpg')" }}>
+      <div className=" bg-cover bg-center bg-no-repeat h-[500px] p-0 m-0 flex flex-col justify-center items-center text-center max-sm:h-[274px]"
        style={{ backgroundImage: "url('./images/headerBanner.webp')" }}
       >
-        <p className="text-[48px] text-[#ffffff]" style={{fontFamily: 'alNevrada'}}>
+        <p className="text-[48px] text-[#ffffff] max-sm:text-[#F5652F] max-sm:text-[28px]" style={{fontFamily: 'alNevrada'}} >
           "Find Jodhpur Flavours
           <br /> near you."
         </p>
-        <p className="text-[#ffffff] text-[24px]">
+        <p className="text-[#ffffff] text-[24px] max-sm:text-[20px]">
           "Bringing the royal taste of Rajasthan to your city."
         </p>
       </div>
@@ -403,7 +403,7 @@ const Location = () => {
         <Gallery />
       </div>
       
-      <div className="flex flex-col-reverse lg:flex-row justify-center mb-20">
+      <div className="flex flex-col-reverse lg:flex-row justify-center mb-20 max-sm:mb-10">
         <div className="bg-[url('/images/bg.webp')] bg-cover bg-center bg-no-repeat w-full lg:w-1/2 p-4 sm:p-[2em] flex flex-col justify-center">
           <ContactForm />
         </div>

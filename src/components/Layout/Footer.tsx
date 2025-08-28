@@ -1,8 +1,8 @@
-import { FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
+// import { FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white py-10 bg-cover " style={{
+    <footer className="relative bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white py-10 bg-cover max-sm:bg-center" style={{
           backgroundImage: "url('/images/bg_fream.jpg')", // replace with your image path
         }}>
       <div className="container mx-auto flex flex-col items-center space-y-4">
@@ -22,21 +22,21 @@ export default function Footer() {
         <div className="flex space-x-4">
           <a
             href="#"
-            className="border border-white p-2 rounded-full hover:bg-orange-500 transition duration-300"
+            className=" hover:bg-orange-500 transition duration-300"
           >
-            <FaInstagram size={18} />
+             <img src="/images/Instagram.png" alt="" className="h-[5em] w-[5em]"/>
           </a>
           <a
             href="#"
-            className="border border-white p-2 rounded-full hover:bg-orange-500 transition duration-300"
+            className=" hover:bg-orange-500 transition duration-300"
           >
-            <FaWhatsapp size={18} />
+            <img src="/images/whatsApp.png" alt="" className="h-[5em] w-[5em]"/>
           </a>
           <a
             href="#"
-            className="border border-white p-2 rounded-full hover:bg-orange-500 transition duration-300"
+            className=" hover:bg-orange-500 transition duration-300"
           >
-            <FaFacebookF size={18} />
+            <img src="/images/faceBook.png" alt="" className="h-[5em] w-[5em]"/>
           </a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import { IoCloseOutline } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 
@@ -63,7 +63,7 @@ const Header = () => {
           className="md:hidden text-white text-2xl cursor-pointer"
           onClick={() => setMenuOpen((prev) => !prev)}
         >
-          {menuOpen ? <FaTimes /> : <FaBars />}
+          {menuOpen ? <FaTimes /> :   <img src="/images/Navbar_icon.png" alt="" className="h-[36px] w-[36px]"/>}
         </div>
       </div>
 

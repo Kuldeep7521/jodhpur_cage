@@ -315,7 +315,7 @@ const Location = () => {
       <div className=" bg-cover bg-center bg-no-repeat h-[500px] p-0 m-0 flex flex-col justify-center items-center text-center max-sm:h-[274px]"
        style={{ backgroundImage: "url('./images/headerBanner.webp')" }}
       >
-        <p className="text-[48px] text-[#ffffff] max-sm:text-[#F5652F] max-sm:text-[28px] custom-font" style={{fontFamily: 'alNevrada'}} >
+       <p className="text-[48px] text-[#ffffff] max-sm:text-[#F5652F] max-sm:text-[20px] custom-font" style={{fontFamily: 'alNevrada'}} >
           "Find Jodhpur Flavours
           <br /> near you."
         </p>
